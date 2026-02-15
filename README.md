@@ -67,14 +67,14 @@ To build the standalone executable from source, follow these steps:
    ```
 
 2. **Run PyInstaller:**
-   Use the following command to create the single-file executable (ensure `FunAdipocyte.ico` is in the project root):
+   Use the following command to create the single-file executable (ensure `AdiQuant_icon.ico` is in the project root):
    ```bash
-   pyinstaller --noconfirm --onefile --windowed --icon "FunAdipocyte.ico" --add-data "FunAdipocyte.ico;." --name "AdiQuant" --hidden-import "scipy.spatial.transform._rotation_groups" main.py
+   pyinstaller --noconfirm --onefile --windowed --icon "AdiQuant_icon.ico" --add-data "AdiQuant_icon.ico;." --name "AdiQuant" --hidden-import "scipy.spatial.transform._rotation_groups" main.py
    ```
 
-## Current Build Details (2026-02-09)
+## Current Build Details (2026-02-14)
 - **Version:** 1.0.0
-- **SHA-256 Checksum:** `172E686078F285A827BA94A0928F3C9D628FA2799CF48C505DC649E1AEFCDDF3`
+- **SHA-256 Checksum:** `B7B5EA06AC4DADB84EA2E66BFCC6054225307389153B1C2AAE0DFDCF7E603165`
 
 To verify the integrity of your `AdiQuant.exe` (located in the `dist` folder), you can run the following command in PowerShell:
 ```powershell
