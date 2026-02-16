@@ -71,8 +71,8 @@ To build the standalone executable from source, follow these steps:
    ```
 
 ## Current Build Details (2026-02-14)
-- **Version:** 1.0.0
-- **SHA-256 Checksum:** `63125C8EB51A58770A5ACBC7204FF96A6496A05B2730803B49FCB7B0C4A1E850`
+- **Version:** 1.1.0
+- **SHA-256 Checksum:** `CFF910C35E4FCD257AD4EADB59CAF1C697E47AF5F0A2AA8F47F25C593E8BDDC5`
 
 To verify the integrity of your `AdiQuant.exe` (located in the `dist` folder), you can run the following command in PowerShell:
 ```powershell
