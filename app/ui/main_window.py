@@ -53,9 +53,6 @@ class MainWindow(QMainWindow):
         self.version = "1.0.0"
         self.creation_date = "2026-02-09"
         self.author = "Dr. Robert Hauffe"
-        self.affiliation = "University of Potsdam, Institute of Nutritional Science"
-        self.website = "https://www.uni-potsdam.de/de/mem/index"
-
         self.processor = ImageProcessor()
         self.undo_stack = []
         self.max_undo = 10
@@ -840,30 +837,20 @@ class MainWindow(QMainWindow):
         info_layout.addRow("Version:", QLabel(self.version))
         info_layout.addRow("Created:", QLabel(self.creation_date))
         info_layout.addRow("Author:", QLabel(self.author))
+    
         
-        affiliation_label = QLabel(self.affiliation)
-        affiliation_label.setWordWrap(True)
-        info_layout.addRow("Affiliation:", affiliation_label)
-        
-        website_label = QLabel(f'<a href="{self.website}">{self.website}</a>')
-        website_label.setOpenExternalLinks(True)
-        info_layout.addRow("Website:", website_label)
+        # License Info
+        license_label = QLabel("This software is free for academic and non-commercial research use. Commercial use requires a separate license agreement. See the LICENSE file for details.")
+        license_label.setWordWrap(True)
+        license_label.setStyleSheet("font-weight: bold; color: #2c3e50;")
+        info_layout.addRow("License:", license_label)
         
         cred_layout.addLayout(info_layout)
         
-        desc_label = QLabel(
-            "\nAutomated adipocyte quantification for\nprecise histological analysis and research."
-        )
+        desc_label = QLabel("\nAutomated adipocyte quantification for\nprecise histological analysis and research.")
         desc_label.setAlignment(Qt.AlignCenter)
         desc_label.setStyleSheet("font-style: italic; color: #7f8c8d;")
         cred_layout.addWidget(desc_label)
-        
-        license_label = QLabel(
-            "\n<b>License:</b> This product is intended for academic use under the <b>MIT License</b>."
-        )
-        license_label.setAlignment(Qt.AlignCenter)
-        license_label.setStyleSheet("font-size: 11px; color: #34495e;")
-        cred_layout.addWidget(license_label)
         
         cred_layout.addStretch()
         tabs.addTab(credits_tab, "Credits")
