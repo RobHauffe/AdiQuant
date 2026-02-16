@@ -79,9 +79,3 @@ To verify the integrity of your `AdiQuant.exe` (located in the `dist` folder), y
 Get-FileHash -Path "dist\AdiQuant.exe" -Algorithm SHA256 | Format-List
 ```
 Compare the output hash with the one above.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. This product is intended for academic use.
-
----
-*Note: This tool is developed by the Molecular and Experimental Nutritional Medicine group at the University of Potsdam.*
