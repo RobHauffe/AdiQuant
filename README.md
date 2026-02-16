@@ -46,15 +46,13 @@ The software provides tools for manual verification and correction. Users can dr
 Users are requested to cite **Hauffe et al. 2026 (Placeholder, i will update this once the paper is published)** when using AdiQuant.
 
 ## License
-This project is licensed under the MIT License – see the LICENSE file for details.
+This software is free for academic and non-commercial research use.
+Commercial use requires a separate license agreement.
+See the LICENSE file for details.
 
 ## Credits
 
 **Author:** Dr. Robert Hauffe
-
-**Affiliation:**
-[Molecular and Experimental Nutritional Medicine](https://www.uni-potsdam.de/de/mem/index)
-University of Potsdam, Germany
 
 ## Build Instructions
 
