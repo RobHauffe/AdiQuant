@@ -43,7 +43,7 @@ The software provides tools for manual verification and correction. Users can dr
 
 ## Citation
 
-Users are requested to cite **Hauffe et al. 2026 (Placeholder, i will update this once the paper is published)** when using AdiQuant.
+Users are requested to cite **Hauffe et al. 2026 (in submission)** when using AdiQuant.
 
 ## License
 This software is free for academic and non-commercial research use.
@@ -72,7 +72,7 @@ To build the standalone executable from source, follow these steps:
 
 ## Current Build Details (2026-02-14)
 - **Version:** 1.0.0
-- **SHA-256 Checksum:** `B7B5EA06AC4DADB84EA2E66BFCC6054225307389153B1C2AAE0DFDCF7E603165`
+- **SHA-256 Checksum:** `63125C8EB51A58770A5ACBC7204FF96A6496A05B2730803B49FCB7B0C4A1E850`
 
 To verify the integrity of your `AdiQuant.exe` (located in the `dist` folder), you can run the following command in PowerShell:
 ```powershell
